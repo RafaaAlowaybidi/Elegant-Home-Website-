@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ELEGANT HOME</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+    <div class="container">
+        <div class="header-container">
+          <div class="logo">
+            <img src="C:\Users\USER\OneDrive\سطح المكتب\IA project\image\logo.png" alt="House Logo">
+            <span class="logo-text">ELEGANT HOME</span>
+          </div>
+
+          <nav class="menu">
+            <a href="#">Home</a>
+            <a href="#">Account</a>
+            <a href="#">Modern Furniture</a>
+            <a href="#">Bohemian Furniture</a>
+            <a href="#">Bedroom</a>
+            <a href="#">Kitchens</a>
+            <a href="#">Payment</a>
+        
+        </nav>
+
+        </div>
+      </div>
+    </header>
+  
+    <main>
+      <div class="container">
+        <h1>Welcome to bohemian Furniture</h1>
+        
+      <section class="product" id="product">
+        <h1 class="heading" id="heading">All <span> products</span></h1>
+        <div class="box-container">
+          <div class="box">
+            <a href="#" class="fas fa-eye"></a>
+            <div class="picture-frame">
+              <img src="C:\Users\USER\OneDrive\سطح المكتب\IA project\image\b1.jpg" alt="project 1">
+            </div>
+
+            <h3>Modern Furniture</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">4500 SAR <span>6750 SAR</span></div>
+            <a href="#" class="btn">Add to cart</a>
+          </div>
+
+          <div class="box">
+            <!-- Product 2 -->
+            <a href="#" class="fas fa-eye"></a>
+            <div class="picture-frame">
+              <img src="C:\Users\USER\OneDrive\سطح المكتب\IA project\image\b2.jpg" alt="project 2">
+            </div>
+            <h3>Modern Furniture 2</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+
+            <div class="price">6000 SAR <span>$6500 SAR</span></div>
+            <a href="#" class="btn">Add to Cart</a>
+          </div>
+
+          <div class="box">
+            <!-- Product 3 -->
+            <a href="#" class="fas fa-eye"></a>
+            <div class="picture-frame">
+              <img src="C:\Users\USER\OneDrive\سطح المكتب\IA project\image\b3.jpg" alt="project 3">
+            </div>
+
+            <h3>Modern Furniture 3</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            <div class="price">2800 SAR <span>3000 SAR</span></div>
+            <a href="#" class="btn">Add to Cart</a>
+          </div>
+
+          <div class="box">
+            <!-- Product 4 -->
+            <a href="#" class="fas fa-eye"></a>
+            <div class="picture-frame">
+              <img src="C:\Users\USER\OneDrive\سطح المكتب\IA project\image\b4.jpg" alt="project 4">
+            </div>
+
+            <h3>Modern Furniture 4</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            <div class="price">3200 SAR <span>4600 SAR</span></div>
+            <a href="#" class="btn">Add to Cart</a>
+          </div>
+
+          <div class="box">
+          <!-- Product 5 -->
+          <a href="#" class="fas fa-eye"></a>
+          <div class="picture-frame">
+            <img src="C:\Users\USER\OneDrive\سطح المكتب\IA project\image\b5.jpg" alt="project 5">
+          </div>
+          <h3>Modern Furniture 5</h3>
+          <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          <div class="price">1500 SAR <span>2360 SAR</span></div>
+          <a href="#" class="btn">Add to Cart</a>
+        </div>
+
+        <div class="box">
+<!-- Product 6 -->
+<a href="#" class="fas fa-eye"></a>
+<div class="picture-frame">
+  <img src="C:\Users\USER\OneDrive\سطح المكتب\IA project\image\bb6.jpg" alt="project 6">
+
+</div>
+        <h3>Modern Furniture 6</h3>
+          <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          <div class="price">2110 SAR <span>2950 SAR</span></div>
+          <a href="#" class="btn">Add to Cart</a>
+        </div>
+
+        </div>
+      </section>
+    
+    </main>
+</body>
+</html>

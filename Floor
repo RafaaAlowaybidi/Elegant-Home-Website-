@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ELEGANT HOME</title>
+  <!-- font awesome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-container">
+        <div class="logo">
+          <img src="C:\Users\USER\OneDrive\سطح المكتب\IA project\image\logo.png" alt="House Logo">
+          <span class="logo-text">ELEGANT HOME</span>
+        </div>
+        <nav class="menu">
+          <a href="#">Home</a>
+          <a href="#">Account</a>
+          <a href="#">Modern Furniture</a>
+          <a href="#">Bohemian Furniture</a>
+          <a href="#">Bedroom</a>
+          <a href="#">Kitchens</a>
+          <a href="#">Payment</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1>Floor sofa</h1>
+      <section class="product" id="product">
+        <h1 class="heading" id="heading">details</h1>
+        <div class="box-container">
+            <img src="C:\Users\USER\OneDrive\سطح المكتب\IA project\image\b2.jpg"alt="Floor sofa" width="700" height="700">
+        </div>
+            <div class="price">550  SAR <span>850 SAR</span></div>
+            <h3>Wood sofa</h3>
+            <p>Available in stock</p>
+            <p>Designed in a solid color that matches various bohemian decor styles.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <table class="details-table">
+                <tr>
+                  <th>Contents</th>
+                  <th>Size</th>
+                  <th>Color</th>
+                </tr>
+                <tr>
+                  <td>Sofa</td>
+                  <td>
+                    <ul>
+                      <li>Height (cm): 40</li>
+                      <li>Width (cm): 90</li>
+                      <li>Depth (cm): 80</li>
+                      <li>Weight (kg): 20</li>
+                    </ul>
+                  </td>
+                  <td>Beige </td>
+                </tr>
+              </table>
+              <form>
+                <h2>Add a Note</h2>
+                <textarea name="note" placeholder="Enter your note"></textarea>
+                <button type="submit">Save Note</button>
+              </form>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+    </div>
+  </section>
+</div>
+</main>
+</body>
+</html>

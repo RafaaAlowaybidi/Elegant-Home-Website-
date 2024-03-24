@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<head>
+    <title>First Page</title>
+    <link rel="stylesheet" href="css/styleSheet1.css">
+    <link rel="stylesheet" href="css/Stylelina.css">
+
+</head>
+<body class="full-page">
+    <div class="full-page">
+        <section id="Home">
+                <nav>
+                    <div class="logo">
+                        <img src="image/logo2.png" alt="logo">
+                    </div>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="Modern.html">Modren Livinroom</a></li>
+                        <li><a href="bohemian.html">Bohemian Livingroom</a></li>
+                        <li><a href="Bedroom.html">Bedroom</a></li>
+                        <li><a href="kids Bedroom.html">Kids bedroom</a></li>
+                        <li><a href="Kitchen.html">Kitchen</a></li>
+                        <li><a href="card.html">Cart</a></li>
+                        
+                    </ul>
+                </nav>
+                </div>
+        </div> <!------------>
+
+        <div id="login-form"class="login-page">
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button type="button"onclick="login()" class="toggle-btn">Log In</button>
+                    <button type="button"onclick="register()"class="toggle-btn">Register</button>
+                </div>
+                <form id="login" class="input-group-login" onsubmit="event.preventDefault(); redirectToHome()">
+                    <input type="text" name="Email" id="email" class="input-field" placeholder="Email" required>
+                
+                    <input type="password" name="password" id="password" class="input-field" placeholder="Enter Password" required>
+                
+                    <input type="checkbox" id="ch1" name="remeber-me" class="check-box">
+                    <label class="lbl-checkbox" for="ch1">Remember Password</label>
+                
+                    <button type="submit" class="submit-btn">Log in</button>
+                </form>
+
+
+                <form id="register" class="input-group-register">
+                    <input type="text" name="fName" class="input-field" placeholder="First Name" required>
+                    <input type="text" name="lName" class="input-field" placeholder="Last Name" required>
+                    <input type="email" name="email" class="input-field" placeholder="Email Id" required>
+                    <input type="password" name="password" class="input-field" placeholder="Enter Password" required>
+                    <input type="password" name="confirm-password" class="input-field" placeholder="Confirm Password" required>
+                    <input type="checkbox" id="ch2" name="terms-Agree" class="check-box">
+                    <label for="ch2" class="lbl-checkbox">I agree to the terms and conditions</label>
+                    <button type="submit" class="submit-btn"onclick="registerUser()">Register</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        var x=document.getElementById('login');
+		var y=document.getElementById('register');
+		var z=document.getElementById('btn');
+
+
+        function registerUser() {
+            window.location.href = 'home.html';
+        }
+    
+		function register()
+		{
+			x.style.left='-400px';
+			y.style.left='50px';
+			z.style.left='110px';
+		}
+		function login()
+		{
+			x.style.left='50px';
+			y.style.left='450px';
+			z.style.left='0px';
+		}
+
+        function redirectToHome() {
+    var emaill = document.getElementById('email').value;
+    var passwordd = document.getElementById('password').value;
+    
+    if (emaill !== "" && passwordd !== "") {
+                window.location.href = "home.html";
+        }   
+    }
+
+       
+
+        var modal = document.getElementById('login-form');
+        window.onclick = function(event) 
+        {
+            if (event.target == modal) 
+            {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>

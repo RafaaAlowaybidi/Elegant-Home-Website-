@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ELEGANT HOME</title>
+  <!-- font awesome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-container">
+        <div class="logo">
+          <img src="C:\Users\USER\OneDrive\سطح المكتب\IA project\image\logo.png" alt="House Logo">
+          <span class="logo-text">ELEGANT HOME</span>
+        </div>
+        <nav class="menu">
+          <a href="#">Home</a>
+          <a href="#">Account</a>
+          <a href="#">Modern Furniture</a>
+          <a href="#">Bohemian Furniture</a>
+          <a href="#">Bedroom</a>
+          <a href="#">Kitchens</a>
+          <a href="#">Payment</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1>4 piece living room set</h1>
+      <section class="product" id="product">
+        <h1 class="heading" id="heading">details</h1>
+        <div class="box-container">
+            <img src="C:\Users\USER\OneDrive\سطح المكتب\IA project\image\product2.png" alt="project 1" width="700" height="700">
+        </div>
+            <div class="price">6000  SAR <span>6500 SAR</span></div>
+            <h3>Distinctive living room set</h3>
+            <p>4 piece living room set</p>
+            <p></p>Add a touch of sophistication to your living room decor by getting this elegant sofa, plus dresser, table and side chair.</p>
+            <p>Designed with luxurious upholstery of polyester fabric with a fixed backrest and rich fiber filling, in addition to curved </p>
+            <p>armrests and velvet seats that immerse you in unparalleled comfort throughout the seating period, it also has a special </p>
+            <p>character that suits the refined taste.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <table class="details-table">
+                <tr>
+                  <th>Contents</th>
+                  <th>Size</th>
+                  <th>Color</th>
+                </tr>
+                <tr>
+                  <td>Sofa</td>
+                  <td>
+                    <ul>
+                      <li>Height (cm): 60</li>
+                      <li>Width (cm): 100</li>
+                      <li>Depth (cm): 88</li>
+                      <li>Weight (kg): 50</li>
+                    </ul>
+                  </td>
+                  <td>Grey</td>
+                </tr>
+                <tr>
+                    <td>table</td>
+                    <td>
+                        <ul>
+                          <li>Height (cm): 40</li>
+                          <li>Width (cm): 150</li>
+                          <li>Weight (kg): 40</li>
+                        </ul>
+                      </td>
+                    <td>gray marble</td>
+                  </tr>
+              </table>
+              <form>
+                <h2>Add a Note</h2>
+                <textarea name="note" placeholder="Enter your note"></textarea>
+                <button type="submit">Save Note</button>
+              </form>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+    </div>
+  </section>
+</div>
+</main>
+</body>
+</html>

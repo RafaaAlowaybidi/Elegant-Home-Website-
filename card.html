@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- remix icon cdn link  -->
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+    <title>Cart</title>    
+    <link rel="stylesheet" href="css/stylenoha.css">
+
+</head>
+
+<body>  
+    <div class="full_page">
+        <nav>
+            <div class="logo">
+                <img src="image/logo2.png" alt="logo">
+            </div>
+            <ul>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="Modern.html">Modren Livinroom</a></li>
+    <li><a href="bohemian.html">Bohemian Livingroom</a></li>
+    <li><a href="Bedroom.html">Bedroom</a></li>
+    <li><a href="kids Bedroom.html">Kids bedroom</a></li>
+    <li><a href="Kitchen.html">Kitchen</a></li>
+    <li><a href="card.html">Cart</a></li>
+                
+            </ul>
+        </nav>
+</div>
+</div>
+    
+<section class="titleall">
+    <h1 class="title"> <span>Cart Selection</span> <a href="#">view all >></a> </h1>
+<!--   -->
+ <section id="cart">
+
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Delete</th>
+                        <th>Image</th>
+                        <th>Name</th>
+                        <th>Price</th> 
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#"><i class="far fa-trash-alt"></i></a></td>
+                        <td><img src="image/K1.jpeg" alt="" ></td>
+                        <td>METOD Kitchens</td>
+                        <td>5000$</td>          
+                    </tr>
+                     <tr>
+                        <td><a href="#"><i class="far fa-trash-alt"></i></a></td>
+                        <td><img src="image/K4.jpeg" alt="" ></td>
+                        <td>KNOXHULT Kitchen</td>
+                        <td>600$</td>          
+                    </tr>
+                     <tr>
+                        <td><a href="#"><i class="far fa-trash-alt"></i></a></td>
+                        <td><img src="image/K7.jpeg" alt="" ></td>
+                        <td>ENHET Kitchen</td>
+                        <td>900$</td>          
+                    </tr>
+                     <tr id="total">
+                     <td><h4>total</h4></td>
+                     <td><h5><span id="total-price">6500</span>$</h5></td>
+                    </tr>
+                </tbody>
+            </table>
+       </section>
+
+<section  class="coupon">
+    <div class="coupon-box">
+        <div class="coupon-img">
+         <img src="image/gift.gif" alt="" > </div>
+         <div class="coupon-details">
+         <h4>Watch <br>the <a target = "_blank" href="https://www.youtube.com/watch?v=S-A0qLTxf-U" id="update-price-link"> ad here </a> <br>and get 10% off.</h4>
+     </div>
+</div>
+</section>
+ 
+   <section class="Checkout">
+       <h6>Checkout</h6>
+       <h1>PAYMENT </h1> 
+      <form action="">
+          <label for="cardno">Card Number </label>
+            <input type="text" name="cardno" id="cardno" maxlength="19" onkeypress="cardspace()"/>
+         
+          <div class="PAYMENT">
+            <label for="validtill">Valid till</label>
+                <input type="text" name="validtill" id="validtill" maxlength="7" onkeypress="addslashes()"/>
+            <label for="cvv">cw </label>
+                <input type="text" name="cvv" id="cvv" maxlength="3"/>
+               </div>
+            <label for="checkbox">
+            <input type="checkbox" name="checkbox" id="checkbox"/> The Address is The Same as My Registered Address on My Account<br><br></label>
+            <a href="#" class="btn">Pay Now</a>
+          </form>
+        </section>  
+  <!-- footer section start  -->
+<footer>
+  <div class="footer_main">
+    <div class="footer_tag">
+      <h2>Location</h2>
+      <p>Makkah</p>
+      <p>Jeddah</p>
+      <p>Riyadh</p>
+      <p>Dammam</p>	
+    </div>
+    <div class="footer_tag">
+      <h2>Quick Link</h2>
+      <p><a class="ln" href="Modern.html">Modren Livinroom</a></p>
+      <p><a class="ln" href="bohemian.html">Bohemian Livingroom</a></p>
+      <p><a class="ln" href="Bedroom.html">Bedroom</a></p>
+      <p><a class="ln" href="kids Bedroom.htm">Kids bedroom</a></p>	
+      <p><a class="ln" href="Kitchen.html">Kitchen</a></p>	
+    </div>
+
+    <div class="footer_tag">
+      <h2>Contact</h2>
+      <p ><a class ="tel" href="tel:+966 56049105">+966 56049105</a></p>
+      <p><a class ="tel" href="tel:+966 57849674">+966 57849674</a></p>
+      <p><a class ="tel" href="tel:+966 55554843">+966 55554843</a></p>
+      <p><a class ="tel" href="tel:+966 53676278">+966 53676278</a></p>
+    </div>
+
+    <div class="footer_tag">
+      <h2>Services</h2>
+      <p>delivery</p>
+      <p>Book an appointment online</p>
+      <p>Installment service</p>
+      <p>Order and receiveS</p>	
+    </div>
+    
+    
+  </div>
+</footer>
+
+
+    <!-- footer section end  -->
+ <script src="cart.js"></script>
+</body>
+</html>

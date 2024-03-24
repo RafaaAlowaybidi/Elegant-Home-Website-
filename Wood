@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ELEGANT HOME</title>
+  <!-- font awesome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-container">
+        <div class="logo">
+          <img src="C:\Users\USER\OneDrive\سطح المكتب\IA project\image\logo.png" alt="House Logo">
+          <span class="logo-text">ELEGANT HOME</span>
+        </div>
+        <nav class="menu">
+          <a href="#">Home</a>
+          <a href="#">Account</a>
+          <a href="#">Modern Furniture</a>
+          <a href="#">Bohemian Furniture</a>
+          <a href="#">Bedroom</a>
+          <a href="#">Kitchens</a>
+          <a href="#">Payment</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1>Wood sofa</h1>
+      <section class="product" id="product">
+        <h1 class="heading" id="heading">details</h1>
+        <div class="box-container">
+            <img src="C:\Users\USER\OneDrive\سطح المكتب\IA project\image\b1.jpg"alt="project 1" width="700" height="700">
+        </div>
+            <div class="price">1500  SAR <span>2000 SAR</span></div>
+            <h3>Wood sofa</h3>
+            <p>Available in stock</p>
+            <p>Create an elegant relaxing corner in your living room with this luxurious sofa. </p>
+            <p>Designed in a solid color that matches various bohemian decor styles.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <table class="details-table">
+                <tr>
+                  <th>Contents</th>
+                  <th>Size</th>
+                  <th>Color</th>
+                </tr>
+                <tr>
+                  <td>Sofa</td>
+                  <td>
+                    <ul>
+                      <li>Height (cm): 60</li>
+                      <li>Width (cm): 100</li>
+                      <li>Depth (cm): 88</li>
+                      <li>Weight (kg): 50</li>
+                    </ul>
+                  </td>
+                  <td>Brown wooden </td>
+                </tr>
+              </table>
+              <form>
+                <h2>Add a Note</h2>
+                <textarea name="note" placeholder="Enter your note"></textarea>
+                <button type="submit">Save Note</button>
+              </form>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+    </div>
+  </section>
+</div>
+</main>
+</body>
+</html>

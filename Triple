@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ELEGANT HOME</title>
+  <!-- font awesome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-container">
+        <div class="logo">
+          <img src="C:\Users\USER\OneDrive\سطح المكتب\IA project\image\logo.png" alt="House Logo">
+          <span class="logo-text">ELEGANT HOME</span>
+        </div>
+        <nav class="menu">
+          <a href="#">Home</a>
+          <a href="#">Account</a>
+          <a href="#">Modern Furniture</a>
+          <a href="#">Bohemian Furniture</a>
+          <a href="#">Bedroom</a>
+          <a href="#">Kitchens</a>
+          <a href="#">Payment</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1>4 piece living room set</h1>
+      <section class="product" id="product">
+        <h1 class="heading" id="heading">details</h1>
+        <div class="box-container">
+            <img src="C:\Users\USER\OneDrive\سطح المكتب\IA project\image\product2.png" alt="project 1" width="700" height="700">
+        </div>
+            <div class="price">2800  SAR <span>3000 SAR</span></div>
+            <h3>Triple living room sofa</h3>
+            <p>Available in stock</p>
+            <p>Perfect for any modern home, this three-seater sofa is designed in a neutral tone to create a sense of warmth and sophistication.</p>
+            <p>>Well-built with a wooden frame for durability, it offers high comfort thanks to its soft fabric upholstery, pocket springs and upright armrests.</p>
+            <p>The seat is filled with polyurethane foam, polyester fiber and non-woven bag, while the anti-static quality and sturdy metal legs add to its advantage.</p>
+            <p>This comfortable sofa features hassle-free maintenance.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <table class="details-table">
+                <tr>
+                  <th>Contents</th>
+                  <th>Size</th>
+                  <th>Color</th>
+                </tr>
+                <tr>
+                  <td>Sofa</td>
+                  <td>
+                    <ul>
+                      <li>Height (cm): 60</li>
+                      <li>Width (cm): 100</li>
+                      <li>Depth (cm): 88</li>
+                      <li>Weight (kg): 50</li>
+                    </ul>
+                  </td>
+                  <td>Gray </td>
+                </tr>
+              </table>
+              <form>
+                <h2>Add a Note</h2>
+                <textarea name="note" placeholder="Enter your note"></textarea>
+                <button type="submit">Save Note</button>
+              </form>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+    </div>
+  </section>
+</div>
+</main>
+</body>
+</html>

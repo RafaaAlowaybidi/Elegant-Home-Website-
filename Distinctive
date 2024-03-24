@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ELEGANT HOME</title>
+  <!-- font awesome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-container">
+        <div class="logo">
+          <img src="C:\Users\USER\OneDrive\سطح المكتب\IA project\image\logo.png" alt="House Logo">
+          <span class="logo-text">ELEGANT HOME</span>
+        </div>
+        <nav class="menu">
+          <a href="#">Home</a>
+          <a href="#">Account</a>
+          <a href="#">Modern Furniture</a>
+          <a href="#">Bohemian Furniture</a>
+          <a href="#">Bedroom</a>
+          <a href="#">Kitchens</a>
+          <a href="#">Payment</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1>Distinctive living room set</h1>
+      <section class="product" id="product">
+        <h1 class="heading" id="heading">details</h1>
+        <div class="box-container">
+            <img src="C:\Users\USER\OneDrive\سطح المكتب\IA project\image\product1.jpg" alt="project 1" width="500" height="600">
+        </div>
+            <div class="price">4500 SAR <span>6750 SAR</span></div>
+            <h3>Distinctive living room set</h3>
+            <p>Available in stock</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">Add to cart</a>
+          </div>
+        </div>
+
+      </section>
+  </main>
+</body>
+</html>
